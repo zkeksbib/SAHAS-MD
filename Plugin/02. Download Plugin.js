@@ -137,7 +137,7 @@ function convertYouTubeLink(q) {
 
 cmd(
     {
-        pattern: "song",
+        pattern: "song2",
         desc: "To download songs.",
         react: "🎧",
         category: "download",
