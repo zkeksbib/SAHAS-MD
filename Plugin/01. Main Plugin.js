@@ -833,12 +833,12 @@ cmd({
             }
         }
         const startTime = Date.now();
-        const message = await conn.sendMessage(from, { text: 'Pining...' });
+        const message = await conn.sendMessage(from, { text: '```Pinging To index.js!!!```' });
         const endTime = Date.now();
         const ping = endTime - startTime;
 
         // Send the ping response without buttons
-        await conn.sendMessage(from, { text: `📍 Ping : ${ping}ms` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*📍 Pong : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.error(e);
         reply(`${e}`);
