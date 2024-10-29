@@ -46,11 +46,11 @@ let message = `‎‎*乂 SAHAS-MD SONG DOWNLOADER*
                         },
                         externalAdReply: {
                             title: `SAHAS-MD Song Downloader`,
-                            body: `${data.title} : Powerd By SAHAS-MD Song Information Search Engine`,
+                            body: `${data.title} : Powered By SAHAS-MD Song Information Search Engine`,
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
-                            renderLargerThumbnail: false,
+                            renderLargerThumbnail: true,
                         },
                     },
                 },
