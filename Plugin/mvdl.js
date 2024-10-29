@@ -14,10 +14,10 @@ const yourName = "❗මෙය වෙබ් පිටපතක් වන අත�
 
 
 cmd({
-    pattern: "mvdl",
-    alias: ["cinerulk"],
+    pattern: "gdmovie",
+    alias: ["googledrivemovie","gdrivemovie"],
     desc: "download cinerulk movie ",
-    category: "download",
+    category: "movie",
     react: "🎬",
     filename: __filename
 },
