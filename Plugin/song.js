@@ -59,7 +59,9 @@ let message = `‎‎*乂 SAHAS-MD SONG DOWNLOADER*
 
 // SEND AUDIO NORMAL TYPE and DOCUMENT TYPE
 await conn.sendMessage(from, { audio: { url: ytdl.result.dl_link }, mimetype: "audio/mpeg" }, { quoted: mek })
-await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "audio/mpeg", fileName: data.title + ".mp3", caption: `${data.title}`}, { quoted: mek })
+await conn.sendMessage(from, { document: { url: ytdl.result.dl_link }, mimetype: "audio/mpeg", fileName: data.title + ".mp3", caption: `${data.title}
+
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`}, { quoted: mek })
   
 } catch(e){
 console.log(e)
