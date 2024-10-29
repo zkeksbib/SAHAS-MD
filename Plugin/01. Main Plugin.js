@@ -841,11 +841,8 @@ cmd({
 
             await conn.sendMessage(from, {
      
-      caption: `Responce Time : ${ping} ms`,
- 
-        }
-      }
-    });
+      caption: `Responce Time : ${ping} ms`,}, { quoted: message })
+
 
     } catch (e) {
         console.error(e);
