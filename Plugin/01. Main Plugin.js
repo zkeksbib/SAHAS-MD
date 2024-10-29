@@ -838,12 +838,7 @@ cmd({
         const ping = endTime - startTime;
 
         // Send the ping response without buttons
-
-            await conn.sendMessage(from, {
-     
-      caption: `Responce Time : ${ping} ms`,}, { quoted: message })
-
-
+        await conn.sendMessage(from, { text: `📍 Ping : ${ping}ms` }, { quoted: message })
     } catch (e) {
         console.error(e);
         reply(`${e}`);
