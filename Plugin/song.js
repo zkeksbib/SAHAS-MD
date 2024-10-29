@@ -32,6 +32,8 @@ let message = `‎‎*乂 SAHAS-MD SONG DOWNLOADER*
 
 > *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
 
+await conn.sendMessage(from, { image: { url : data.thumbnail }, caption: message }, { quoted : mek })
+
             // Send the song info with context
             const sentMsg = await conn.sendMessage(
                 from,
@@ -50,7 +52,7 @@ let message = `‎‎*乂 SAHAS-MD SONG DOWNLOADER*
                             thumbnailUrl: data.thumbnail,
                             sourceUrl: ``,
                             mediaType: 1,
-                            renderLargerThumbnail: true,
+                            renderLargerThumbnail: false,
                         },
                     },
                 },
