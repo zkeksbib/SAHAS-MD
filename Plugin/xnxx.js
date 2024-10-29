@@ -8,7 +8,7 @@ cmd({
     desc: "Downloads a video from XNXX",
     use: ".xnxx <search_term>",
     react: "🤤",
-    category: "downloads",
+    category: "download",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, q, reply }) => {
