@@ -46,6 +46,7 @@
     "n": "^9.0.1",
     "qrcode": "^1.5.1",
     "moment": "^2.29.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "https": "^1.0.0",
     "xnxx-dl": "^1.0.2",
     "ios-news": "^1.0.0",
