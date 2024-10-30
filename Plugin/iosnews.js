@@ -23,7 +23,8 @@ let info = `*📃 Title :* ${data.title}
 *🕒 Time:* ${data.time} 
 *⛓️ Link:* ${data.link}
 *📚 Description:* ${data.desc}
-`
+
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`
 return await conn.sendMessage(from, { image: { url: data.img} , caption: info } , { quoted: mek })
 } catch (e) {
 l(e)
