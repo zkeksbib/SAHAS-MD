@@ -45,6 +45,7 @@
     "zxcvbn": "^4.4.2",
     "n": "^9.0.1",
     "qrcode": "^1.5.1",
+    "wikipedia":"2.1.2",
     "moment": "^2.29.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "https": "^1.0.0",
