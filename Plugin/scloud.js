@@ -3,6 +3,7 @@ cmd({
     pattern: "scloud",
     desc: "downlode scloud",
     category: "download",
+    react: "📡",
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -14,7 +15,7 @@ const data = await response.json()
 const fbvid = data.data.sd
 reply("_*Downloading your *SOUND CLOUD AUDIO*＿＿📥*_")
 reply("_*Uploading your *SOUND CLOUD AUDIO* ＿＿📤*_")
-await conn.sendMessage(from,{video : {url : sclouddl },caption : `┌────────────\n* SOUND CLOUD ᴅᴏᴡɴʟᴏᴀᴅᴇʀ..✅*\n_*ᴄʀᴇᴀᴛᴇᴅ ʙʏ Thenula Panapiti..🧑🏻‍💻*_\n└─────────────`, mimetype:"audio/mpeg"},{quoted:mek})
+await conn.sendMessage(from,{video : {url : sclouddl },caption : `┌────────────\n* SOUND CLOUD ᴅᴏᴡɴʟᴏᴀᴅᴇʀ..✅*\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*\n└─────────────`, mimetype:"audio/mpeg"},{quoted:mek})
 
 }catch(e){
     console.log(e)
