@@ -16,6 +16,7 @@ module.exports = {
   // inbox = Only Working  Inbox
   // groups = only working in group
   OWNER_NUMBER: process.env.OWNER_NUMBER || "94718913389",
+  LANG: process.env.LANG || "SI"
   //========================================- OTHER - CONFIGS -=====================================================================
   AUTO_VOICE: process.env.AUTO_VOICE || "true",
   ANTI_BAD_WORDS_ENABLED: process.env.ANTI_BAD_WORDS_ENABLED || "true",
