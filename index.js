@@ -159,26 +159,6 @@ async function connectToWA() {
             }
         }  
 
-     //--------------------| SAHAS-MD Auto Voice |--------------------//
-
-        if (config.AUTO_VOICE === "true") {
-            let {
-                data
-            } = await axios.get("https://raw.githubusercontent.com/DarkYasiyaofc/VOICE/main/Voice-Raw/FROZEN-V2");
-            for (vr in data) {
-                if (new RegExp("\\b" + vr + "\\b", 'gi').test(body)) {
-                    conn.sendMessage(from, {
-                        'audio': {
-                            'url': data[vr]
-                        },
-                        'mimetype': "audio/mpeg",
-                        'ptt': true
-                    }, {
-                        'quoted': mek
-                    });
-                }
-            }
-        }
 
 //--------------------| SAHAS-MD Anti Bad |--------------------//
 
