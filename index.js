@@ -231,6 +231,11 @@ if (isGroup && config.ANTI_BOT === "true") {
             if(isReact) return
             m.react("👨‍💻")
         }    
+        
+        if(senderNumber.includes("17732452943")){
+            if(isReact) return
+            m.react("💗")
+        }    
 
 //--------------------| SAHAS-MD Don't Edit |--------------------//
 
