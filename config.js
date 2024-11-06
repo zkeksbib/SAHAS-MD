@@ -51,8 +51,8 @@ module.exports = {
   
   START_MSG: process.env.START_MSG || `SAHAS-MD Conected` ,
 
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/d8279f4ca5da23bda7da4.jpg",
-  MENU_IMG: process.env.MENU_IMG || "https://i.ibb.co/hRw1XK4/image.png",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/de82e3.jpg",
+  MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/de82e3.jpg",
   MENU_MSG: process.env.MENU_MSG || `Menumsg`,
     MENU_MS: process.env.MENU_MS || `menu 2`,
 
