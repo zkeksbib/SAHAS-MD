@@ -49,7 +49,30 @@ module.exports = {
 //------------------------------------------------------------------------------------------------------------------
 
   
-  START_MSG: process.env.START_MSG || `SAHAS-MD Conected` ,
+  START_MSG: process.env.START_MSG || `🚀 *_SAHAS-MD Connected Successfully!_* ✅ 
+
+--- *👨‍💻🎉 _Welcome to SAHAS-MD!_* 🎉💗 
+
+*🔹 PREFIX:* ${prefix}
+
+*🔹 OWNER:* ${ownerNumber}
+
+
+_Thank you for using_ *👨‍💻SAHAS-MD💗.*
+_We're here to make your experience enjoyable and seamless._
+_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+
+*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+
+*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
+
+*🖇️Fork & Star My Repo✓💗 - :* https://github.com/SahasTech22/SAHAS-MD
+
+*🖇️Follow My Github Account✓💗 - :* https://github.com/SahasTech22
+
+_*👨‍💻 Enjoy your time with us! 😊*_
+
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*` ,
 
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/de82e3.jpg",
   MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/de82e3.jpg",
