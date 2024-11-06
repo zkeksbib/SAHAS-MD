@@ -55,7 +55,7 @@ module.exports = {
 
 *🔹 PREFIX:* .
 
-*🔹 OWNER:* ${ownerNumber}
+*🔹 OWNER:* 94718913389
 
 
 _Thank you for using_ *👨‍💻SAHAS-MD💗.*
